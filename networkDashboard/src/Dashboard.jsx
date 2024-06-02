@@ -32,11 +32,11 @@ function Dashboard() {
         <LineChart data={lineChartData} />
       </div>
       <div className="chart-container bar">
-        <h3>Alert Severities</h3>
+        <h3>Alert Categories</h3>
         <BarChart data={barChartData} />
       </div>
       <div className="chart-container pie">
-        <h3>Alert Categories</h3>
+        <h3>Alert Severities</h3>
         <PieChart data={pieChartData} />
       </div>
       <TableData rows={dummyData} />
